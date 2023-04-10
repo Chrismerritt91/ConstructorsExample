@@ -8,7 +8,8 @@ static void Main() {
         Employee emp3 = new Employee(103, "Anna", "Clerk");
 
         //display fields
-        Console.WriteLine("First Employee:");
+        Console.WriteLine(Employee.companyName);
+        Console.WriteLine("\nFirst Employee:");
         Console.WriteLine(emp1.empID);
         Console.WriteLine(emp1.empName);
         Console.WriteLine(emp1.job);
