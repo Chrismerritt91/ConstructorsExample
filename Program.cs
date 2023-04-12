@@ -10,6 +10,8 @@ static void Main() {
         Employee emp2 = new Employee(102, "Allen");
         emp2.setJob("Asst. Manager");
         Employee emp3 = new Employee(103, "Anna", "Clerk");
+        //setting fields using object initializer
+        Employee emp4 = new Employee(){empName = "Ford",job = "Executive"};
 
         //display fields
         Console.WriteLine(Employee.companyName);
